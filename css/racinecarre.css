@@ -1,0 +1,153 @@
+html{
+	background-color: #E9967A;
+	margin:0;
+	padding: 0;
+    height: 105.5%;
+    position: absolute;
+    display: block;
+}
+#logospace{
+	position: relative;
+	border: 2px solid #F5F5DC;
+	background-color: white;
+	height: 100px;
+	box-shadow: 2px 4px 6px black;
+}
+#logospace #slogan{
+    text-align: center;
+	font-size: x-large;
+	font-family:cursive,monospace,sans-serif;
+    width: 400px;
+    position: relative;
+    left: 300px;
+}
+#listes li{
+	list-style: none;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+	border:3px solid white;
+	margin-bottom: 3px;
+	background-color: #696969; 
+	border-radius: 1px 7px 1px 7px;
+	transition-property: all;
+	transition-delay: 0s;
+	transition-duration: 1.5s;
+	transition-timing-function: ease-out;
+}
+#listes li:hover{
+	background-color: black;
+	border-radius: 0px 0px 0px 0px;
+}
+#listes a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+#descr{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    text-align: justify;
+    padding: 5px;
+}
+#descr h3{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.lien_interne{
+    text-decoration: none;
+}
+#descr .loin{
+    position: relative;
+    left: 90px;
+    top: 150px;
+    text-decoration: none;
+    color:blue;
+}
+#racinecarre{
+    position: absolute;
+    left: 75px;
+}
+#middle-column{
+    position: absolute;
+    left: 290px;
+    width: 500px;
+    height: 457px;
+    border: 2px solid black;
+}
+#middle-column h2{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    background-color: white;
+}
+#middle-column #espace_calcul{
+    position: absolute;
+    left: 75px;
+    top: 90px;
+    width: 350px;
+    height: 200px;
+}
+#middle-column #bouton{
+    position: absolute;
+    left: 230px;
+    top: 300px;
+    height: 40px;
+}
+#middle-column #espace_resultat{
+    position: relative;
+    top: 350px;
+    height: 108px;
+    background-color: white;
+    
+}
+
+
+
+
+
+footer{
+    position: absolute;
+    width: 99%;
+    top: 705px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.licence{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    left: 350px;
+    width: 300px
+}
+footer div{
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+#commentaires{
+    position: absolute;
+    left:698px;
+    bottom: 0px;
+    border-left: 3px solid white;
+}
+#contacts{
+    position: absolute;
+    border-right: 3px solid white;
+}
+#contacts a{
+    text-decoration: none;
+}
+#contacts li{
+    color: white;
+    width: 140px;
+}

@@ -1,0 +1,175 @@
+html{
+	background-color: #E9967A;
+	margin:0;
+	padding: 0;
+    height: 105.5%;
+    position: absolute;
+    display: block;
+}
+#logospace{
+	position: relative;
+	border: 2px solid #F5F5DC;
+	background-color: white;
+	height: 100px;
+	box-shadow: 2px 4px 6px black;
+}
+#logospace #slogan{
+    text-align: center;
+	font-size: x-large;
+	font-family:cursive,monospace,sans-serif;
+    width: 400px;
+    position: relative;
+    left: 300px;
+}
+#listes li{
+	list-style: none;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+	border:3px solid white;
+	margin-bottom: 3px;
+	background-color: #696969; 
+	border-radius: 1px 7px 1px 7px;
+	transition-property: all;
+	transition-delay: 0s;
+	transition-duration: 1.5s;
+	transition-timing-function: ease-out;
+}
+#listes li:hover{
+	background-color: black;
+	border-radius: 0px 0px 0px 0px;
+}
+#listes a{
+	text-decoration: none;
+}
+
+
+
+
+
+#presentation{
+	background-color: white;
+	position: absolute;
+	border: 2px solid black;
+	width: 200px;
+	height: 450px;
+	word-wrap: break-word;
+	padding: 3px;
+	text-align: justify;
+	display: block;
+}
+#photo_oracle{
+	position: relative;
+	left: 50px;
+    top: 5px;
+}
+#conditions{
+	position: absolute;
+	background-color: white;
+	border: 2px solid black;
+	border-radius:5px 5px 5px 5px;
+	left: 230px;
+	width: 55%;
+	height: 456px;
+	display: block;
+
+}
+#conditions h2{
+	text-align: center;
+	text-decoration: underline;
+	font-family: arial,'arial black',sans-serif;
+}
+#pub1{
+	position: absolute;
+	border: 2px solid black;
+	left: 800px;
+	border-radius:5px 5px 5px 5px;
+	width: 200px;
+	height: 225px;
+	background-color: white;
+}
+#pub2{
+	position: absolute;
+	border: 2px solid black;
+	left: 800px;
+	top: 470px;
+	border-radius:5px 5px 5px 5px;
+	width: 200px;
+	height: 225px;
+	background-color: white;
+}
+.pub p{
+	text-align: center;
+}
+.float{
+    float: left;
+}
+#informations{
+    position: absolute;
+    width: 99%;
+    height: 250px;
+    top: 705px;
+    border: 1px solid black;
+}
+#informations div{
+    display: inline-block;
+    height: 250px;
+    width: 329.5px;
+    background-color: white;
+    text-align: justify;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+#informations div:hover{
+    background-color:deepskyblue;
+}
+#informations div h3{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+
+
+
+
+footer{
+    position: absolute;
+    width: 99%;
+    top: 960px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.licence{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    left: 350px;
+    width: 300px
+}
+footer div{
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+#commentaires{
+    position: absolute;
+    left:698px;
+    bottom: 0px;
+    border-left: 3px solid white;
+}
+#contacts{
+    position: absolute;
+    border-right: 3px solid white;
+}
+#contacts a{
+    text-decoration: none;
+}
+#contacts li{
+    color: white;
+    width: 140px;
+}
