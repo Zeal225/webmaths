@@ -5,12 +5,14 @@ html{
     height: 105.5%;
     position: absolute;
     display: block;
+    width: 100%;
 }
 #logospace{
 	position: relative;
 	border: 2px solid #F5F5DC;
 	background-color: white;
 	height: 100px;
+    width: 1330px;
 	box-shadow: 2px 4px 6px black;
 }
 #logospace #slogan{
@@ -19,7 +21,7 @@ html{
 	font-family:cursive,monospace,sans-serif;
     width: 400px;
     position: relative;
-    left: 300px;
+    left: 450px;
 }
 #listes li{
 	list-style: none;
@@ -68,8 +70,8 @@ html{
 	background-color: white;
 	border: 2px solid black;
 	border-radius:5px 5px 5px 5px;
-	left: 230px;
-	width: 55%;
+	left: 225px;
+	width: 900px;
 	height: 456px;
 	display: block;
 
@@ -82,20 +84,20 @@ html{
 #pub1{
 	position: absolute;
 	border: 2px solid black;
-	left: 800px;
+	left: 1140px;
 	border-radius:5px 5px 5px 5px;
 	width: 200px;
-	height: 225px;
+	height: 220px;
 	background-color: white;
 }
 #pub2{
 	position: absolute;
 	border: 2px solid black;
-	left: 800px;
-	top: 470px;
+	left: 1140px;
+	top: 426px;
 	border-radius:5px 5px 5px 5px;
 	width: 200px;
-	height: 225px;
+	height: 220px;
 	background-color: white;
 }
 .pub p{
@@ -108,19 +110,28 @@ html{
     position: absolute;
     width: 99%;
     height: 250px;
-    top: 705px;
+    top: 680px;
     border: 1px solid black;
 }
 #informations div{
+    position: absolute;
     display: inline-block;
     height: 250px;
-    width: 329.5px;
+    width: 440px;
     background-color: white;
     text-align: justify;
     transition-property: all;
     transition-delay: 0s;
     transition-duration: 2s;
     transition-timing-function: ease-out;
+}
+#info2{
+    position: absolute;
+    left: 449px;
+}
+#info3{
+    position: absolute;
+    left: 896px;
 }
 #informations div:hover{
     background-color:deepskyblue;
@@ -146,24 +157,27 @@ footer{
 }
 .licence{
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 160px;
-    left: 350px;
+    left: 530px;
     width: 300px
 }
 footer div{
     position: relative;
     height: 200px;
-    width: 300px;
+    width: 440px;
 }
 #commentaires{
     position: absolute;
-    left:698px;
+    left:894px;
     bottom: 0px;
     border-left: 3px solid white;
 }
 #oracle_signature{
-    
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    width: 250px;
 }
 #contacts{
     position: absolute;
