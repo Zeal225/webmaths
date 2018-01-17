@@ -1,11 +1,11 @@
 html{
-	background-color: #E9967A;
+	background-color:cornflowerblue;
 	margin:0;
 	padding: 0;
-    height: 105.5%;
+    height: 1160px;
     position: absolute;
     display: block;
-    width: 100%;
+    width:100%;
 }
 #logospace{
 	position: relative;

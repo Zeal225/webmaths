@@ -1,8 +1,9 @@
 html{
-	background-color: #E9967A;
+	background-color: cornflowerblue;
 	margin:0;
 	padding: 0;
-    height: 105.5%;
+    width: 100%;
+    height: 905px;
     position: absolute;
     display: block;
 }
@@ -19,7 +20,7 @@ html{
 	font-family:cursive,monospace,sans-serif;
     width: 400px;
     position: relative;
-    left: 300px;
+    left: 450px;
 }
 #listes li{
 	list-style: none;
@@ -78,7 +79,7 @@ html{
 #middle-column{
     position: absolute;
     left: 290px;
-    width: 500px;
+    width: 650px;
     height: 457px;
     border: 2px solid black;
 }
@@ -86,21 +87,24 @@ html{
     text-align: center;
     width: 200px;
     position: absolute;
-    left: 150px;
+    left: 250px;
     background-color: white;
 }
 #middle-column #espace_calcul{
     position: absolute;
-    left: 75px;
+    left: 170px;
     top: 90px;
     width: 350px;
     height: 200px;
 }
 #middle-column #bouton{
     position: absolute;
-    left: 230px;
+    left: 310px;
     top: 300px;
+    width: 90px;
     height: 40px;
+    background-color:dodgerblue;
+    box-shadow: 2px 2px 1px black;
 }
 #middle-column #espace_resultat{
     position: relative;
@@ -117,31 +121,39 @@ html{
 footer{
     position: absolute;
     width: 99%;
-    top: 705px;
-    height: 200px;
+    top: 670px;
+    height: 230px;
     background-color: black;
     color: white;
 }
 .licence{
     text-align: center;
-    position: relative;
-    top: 160px;
-    left: 350px;
+    position: absolute;
+    top: 190px;
+    left: 530px;
     width: 300px
 }
 footer div{
     position: relative;
     height: 200px;
-    width: 300px;
+    width: 440px;
 }
 #commentaires{
     position: absolute;
-    left:698px;
+    left:894px;
+    height: 230px;
     bottom: 0px;
     border-left: 3px solid white;
 }
+#oracle_signature{
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    width: 250px;
+}
 #contacts{
     position: absolute;
+    height: 230px;
     border-right: 3px solid white;
 }
 #contacts a{
