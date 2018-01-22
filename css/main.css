@@ -7,6 +7,10 @@ html{
     display: block;
     width:100%;
 }
+#logo{
+	position: absolute;
+	width: 180px;
+}
 #logospace{
 	position: relative;
 	border: 2px solid #F5F5DC;
@@ -57,7 +61,7 @@ html{
 	height: 450px;
 	word-wrap: break-word;
 	padding: 3px;
-	text-align: justify;
+	text-align:justify;
 	display: block;
 }
 #photo_oracle{
@@ -74,6 +78,8 @@ html{
 	width: 900px;
 	height: 456px;
 	display: block;
+	overflow: scroll;
+	text-align: justify;
 
 }
 #conditions h2{
@@ -189,4 +195,11 @@ footer div{
 #contacts li{
     color: white;
     width: 140px;
+}
+#logo-bas{
+	position: absolute;
+	left: 580px;
+	top: 30px;
+	width: 180px;
+	height: 100px;
 }
