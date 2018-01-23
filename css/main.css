@@ -250,7 +250,7 @@ footer div{
         left: -9px;
     }
     #pub1,#pub2{
-        visibility: hidden;
+        display: none;
         width: 250px;
     }
     #conditions{
@@ -276,7 +276,7 @@ footer div{
         width: 360px
     }
     #logo-bas{
-        visibility: hidden;
+        display: none;
     }
     #oracle_signature{
         position: absolute;
