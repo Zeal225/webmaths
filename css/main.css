@@ -232,12 +232,12 @@ footer div{
 }
 @media screen and (max-width: 768px){
     body{
-        width: 724px;
-        display: block;
+        width: 725px;
         height: 1393px;
     }
     #logospace{
         width: 720px;
+        position:relative;
     }
     #logospace #slogan{
         position: absolute;
