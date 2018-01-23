@@ -266,21 +266,24 @@ footer div{
         width: 725px;
     }
     footer div{
-        width: 270px;
-        
+        width: 270px;        
     }
     #commentaires{
-        width: 0px;   
+        width: 0px;
+        border-left: 0px;
+    }
+    #contacts{
+        width: 360px
     }
     #logo-bas{
         visibility: hidden;
     }
     #oracle_signature{
         position: absolute;
-        left: -500px;
+        left: -460px;
     }
     .licence{
         position: absolute;
-        left: 365px;
+        left: 405px;
     }
 }
