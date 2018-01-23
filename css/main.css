@@ -249,16 +249,23 @@ footer div{
         position: relative;
         left: -9px;
     }
-    #pub1,#pub2{
-        display: none;
-        width: 250px;
+    #pub1{
+        width: 350px;
+        position: absolute;
+        left: 6px;
+        top: 950px;
+    }
+    #pub2{
+        width: 350px;
+        position: absolute;
+        left: 375px;
+        top: 950px;
     }
     #conditions{
         width: 500px;
     }
     #informations{
-        position: absolute;
-        top: 940px;
+        display: none;
     }
     footer{
         position: absolute;
