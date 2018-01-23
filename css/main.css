@@ -5,7 +5,13 @@ html{
     height: 1160px;
     position: absolute;
     display: block;
-    width:100%;
+}
+body{
+	width: 1345px;
+	height: 100%;
+}
+#body{
+	width: 1345px;
 }
 #logo{
 	position: absolute;
@@ -117,7 +123,6 @@ html{
     width: 99%;
     height: 250px;
     top: 680px;
-    border: 1px solid black;
 }
 #informations div{
     position: absolute;
@@ -202,4 +207,80 @@ footer div{
 	top: 30px;
 	width: 180px;
 	height: 100px;
+}
+
+
+/*media querries*/
+
+@media screen and (max-width:1024px){
+	html{
+		margin: 0px;
+	}
+	body{
+		width: 100%;
+	}
+	#logospace{
+		width: 100%;
+	}
+	#logospace #slogan{
+		position: absolute;
+		text-align: center;
+		left: 550px;
+		top: 5px;
+	}
+	
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 724px;
+        display: block;
+        height: 1393px;
+    }
+    #logospace{
+        width: 720px;
+    }
+    #logospace #slogan{
+        position: absolute;
+        left: 35%;
+    }
+    #listes li{
+        display: block;
+        width: 660px;
+        position: relative;
+        left: -9px;
+    }
+    #pub1,#pub2{
+        visibility: hidden;
+        width: 250px;
+    }
+    #conditions{
+        width: 500px;
+    }
+    #informations{
+        position: absolute;
+        top: 940px;
+    }
+    footer{
+        position: absolute;
+        top: 1200px;
+        width: 725px;
+    }
+    footer div{
+        width: 270px;
+        
+    }
+    #commentaires{
+        width: 0px;   
+    }
+    #logo-bas{
+        visibility: hidden;
+    }
+    #oracle_signature{
+        position: absolute;
+        left: -500px;
+    }
+    .licence{
+        position: absolute;
+        left: 365px;
+    }
 }
